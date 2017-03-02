@@ -7,7 +7,10 @@ module.exports = {
         filename: 'bundle.js',
     },
     resolve: {
-        alias: {},
+        alias: {
+          Main: path.resolve(__dirname, 'app/components/main.jsx'),
+          NavComponent: path.resolve(__dirname, 'app/components/navComponent.jsx'),
+        },
         extensions: ['.js', '.jsx']
     },
     module: {

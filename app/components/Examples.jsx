@@ -1,11 +1,9 @@
-var React = require('react');
+import React from 'react';
 
-var Examples = React.createClass({
-    render: function() {
+export default class Examples extends React.Component {
+    render() {
         return (
             <h3>Examples Component</h3>
         );
     }
-});
-
-module.exports = Examples;
+};

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {IndexLink, Link} from 'react-router'
 
-var NavComponent = React.createClass({
-    render: function() {
+export default class NavComponent extends React.Component {
+    render() {
         return (
             <div>
                 <h2>Nav Component</h2>
@@ -13,6 +13,4 @@ var NavComponent = React.createClass({
             </div>
         );
     }
-});
-
-module.exports = NavComponent;
+};

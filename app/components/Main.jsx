@@ -1,8 +1,8 @@
 import React from 'react';
 import NavComponent from './NavComponent.jsx';
 
-var Main = React.createClass({
-    render: function() {
+export default class Main extends React.Component {
+    render() {
         return (
             <div>
                 <NavComponent/>
@@ -11,6 +11,4 @@ var Main = React.createClass({
             </div>
         );
     }
-});
-
-module.exports = Main;
+};

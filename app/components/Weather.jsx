@@ -12,5 +12,3 @@ export default class Weather extends React.Component {
         );
     }
 };
-
-module.exports = Weather;

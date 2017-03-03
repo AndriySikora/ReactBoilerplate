@@ -1,10 +1,10 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory, Link} = require('react-router');
-var Main = require('Main');
-var Weather = require('Weather');
-var About = require('About');
-var Examples = require('Examples');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Route, Router, IndexRoute, hashHistory, Link} from 'react-router';
+import Main from './components/Main.jsx';
+import Weather from './components/Weather.jsx';
+import About from './components/About.jsx';
+import Examples from './components/Examples.jsx';
 
 ReactDOM.render(
     <Router history={hashHistory}>

@@ -1,5 +1,5 @@
-var React = require('react');
-var NavComponent = require('NavComponent');
+import React from 'react';
+import NavComponent from './NavComponent.jsx';
 
 var Main = React.createClass({
     render: function() {

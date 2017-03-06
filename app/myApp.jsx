@@ -5,6 +5,7 @@ import Main from './components/Main.jsx';
 import Weather from './components/Weather.jsx';
 import About from './components/About.jsx';
 import Examples from './components/Examples.jsx';
+import openWeatherMap from './api/openWeatherMap.jsx';
 
 ReactDOM.render(
     <Router history={hashHistory}>
